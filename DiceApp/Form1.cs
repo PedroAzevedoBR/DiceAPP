@@ -41,6 +41,19 @@ namespace DiceApp
             lstLabel.Add(label11);
             return lstLabel;
         }
+
+        private void clean()
+        {
+            foreach (Label lbl in createFirstPlayerScores()){ cleanText(lbl); }
+            foreach (Label lbl in createsecondPlayerScores()){ cleanText(lbl); }
+            label14.Text = "0";
+            label12.Text = "";
+            result1 = null;
+            result2 = null;
+            partida = 0;
+            amountFirstPlayer = 0; 
+            amountSecondPlayer = 0;  
+        }
         
     }
 }
