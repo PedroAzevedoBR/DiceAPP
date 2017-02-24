@@ -121,6 +121,13 @@ namespace DiceApp
             else
                 block_buttons();
         }
+
+        private void VerifyMatch(int amountP1, int amountP2) 
+        {
+
+            if (amountP1 == 2 || amountP2 == 2)
+                endGame(amountP1 == 2 ? 1 : 2);
+        }
         
     }
 }
