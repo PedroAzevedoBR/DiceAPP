@@ -1,0 +1,9 @@
+c:\users\pedro\documents\visual studio 2013\Projects\DiceApp\DiceApp\bin\Debug\DiceApp.exe.config
+C:\Users\Pedro\Documents\Visual Studio 2013\Projects\DiceApp\DiceApp\obj\Debug\DiceApp.csprojResolveAssemblyReference.cache
+C:\Users\Pedro\Documents\Visual Studio 2013\Projects\DiceApp\DiceApp\obj\Debug\DiceApp.Form1.resources
+C:\Users\Pedro\Documents\Visual Studio 2013\Projects\DiceApp\DiceApp\obj\Debug\DiceApp.Properties.Resources.resources
+C:\Users\Pedro\Documents\Visual Studio 2013\Projects\DiceApp\DiceApp\obj\Debug\DiceApp.csproj.GenerateResource.Cache
+C:\Users\Pedro\Documents\Visual Studio 2013\Projects\DiceApp\DiceApp\bin\Debug\DiceApp.exe
+C:\Users\Pedro\Documents\Visual Studio 2013\Projects\DiceApp\DiceApp\bin\Debug\DiceApp.pdb
+C:\Users\Pedro\Documents\Visual Studio 2013\Projects\DiceApp\DiceApp\obj\Debug\DiceApp.exe
+C:\Users\Pedro\Documents\Visual Studio 2013\Projects\DiceApp\DiceApp\obj\Debug\DiceApp.pdb
