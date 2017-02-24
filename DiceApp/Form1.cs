@@ -134,6 +134,11 @@ namespace DiceApp
             winner.ForeColor = Color.Green;
             loser.ForeColor = Color.Red;
         }
+
+        private void setWinnerLabel(int playerWinner)
+        {
+            label12.Text = playerWinner == 0 ? "EMPATE" : "Jogador " + playerWinner + " ganhou!";
+        }
         
     }
 }
