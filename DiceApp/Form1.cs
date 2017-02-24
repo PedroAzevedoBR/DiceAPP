@@ -129,5 +129,11 @@ namespace DiceApp
                 endGame(amountP1 == 2 ? 1 : 2);
         }
         
+        private void setColors(Label winner, Label loser)
+        {
+            winner.ForeColor = Color.Green;
+            loser.ForeColor = Color.Red;
+        }
+        
     }
 }
