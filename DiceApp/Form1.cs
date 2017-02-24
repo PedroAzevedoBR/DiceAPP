@@ -80,6 +80,11 @@ namespace DiceApp
                 button2.Enabled = !button1.Enabled;
             }
         }
+
+        private void block_buttons() 
+        {
+            button2.Enabled = button1.Enabled;
+        }
         
     }
 }
