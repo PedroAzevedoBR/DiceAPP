@@ -104,6 +104,12 @@ namespace DiceApp
             }
             return null;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            result1 = fill(createFirstPlayerScores());
+            switchEnable();            
+        }
         
     }
 }
