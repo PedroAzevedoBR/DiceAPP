@@ -71,6 +71,15 @@ namespace DiceApp
             partida++;
             label14.Text = partida + "";
         }
+
+        private void switchEnable()
+        {
+            if (button2.Enabled != button1.Enabled)
+            {
+                button1.Enabled = !button1.Enabled;
+                button2.Enabled = !button1.Enabled;
+            }
+        }
         
     }
 }
