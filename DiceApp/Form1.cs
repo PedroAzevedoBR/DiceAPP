@@ -167,6 +167,14 @@ namespace DiceApp
                 VerifyMatch(amountFirstPlayer, amountSecondPlayer);
             } 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            updatePartida();
+            result2 = fill(createsecondPlayerScores());
+            partialResult(result1, result2);
+            switchEnable();
+        }
         
     }
 }
