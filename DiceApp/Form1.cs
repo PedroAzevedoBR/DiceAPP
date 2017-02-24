@@ -91,6 +91,19 @@ namespace DiceApp
             Random rnd = new Random();
             return rnd.Next(1, 7);
         }
+
+        private Label fill(List<Label> list)
+        {
+            foreach (Label lbl in list)
+            {
+                if (lbl.Text.Equals(""))
+                {
+                    lbl.Text = randomize() + "";
+                    return lbl;
+                }
+            }
+            return null;
+        }
         
     }
 }
