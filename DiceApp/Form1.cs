@@ -17,6 +17,17 @@ namespace DiceApp
             InitializeComponent();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            label1.Text = "Jogador 1";
+            label2.Text = "Jogador 2";
+            button1.Text = "Jogar";
+            button2.Text = button1.Text;
+            button1.Enabled = true;
+            button2.Enabled = false;
+            clean();
+        }
+
         int amountFirstPlayer = 0; 
         int amountSecondPlayer = 0;
         Label result1, result2 = null;
