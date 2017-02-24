@@ -85,6 +85,12 @@ namespace DiceApp
         {
             button2.Enabled = button1.Enabled;
         }
+
+        private int randomize() 
+        {
+            Random rnd = new Random();
+            return rnd.Next(1, 7);
+        }
         
     }
 }
