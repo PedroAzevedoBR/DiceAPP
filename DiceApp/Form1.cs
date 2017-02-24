@@ -18,6 +18,24 @@ namespace DiceApp
         }
         
         private void cleanText(Label lbl) { lbl.Text = "";}
+
+         private List<Label> createFirstPlayerScores()
+        {
+            List<Label> lstLabel = new List<Label>();
+            lstLabel.Add(label3);
+            lstLabel.Add(label6);
+            lstLabel.Add(label9);
+            return lstLabel;
+        }
+
+        private List<Label> createsecondPlayerScores()
+        {
+            List<Label> lstLabel = new List<Label>();
+            lstLabel.Add(label5);
+            lstLabel.Add(label8);
+            lstLabel.Add(label11);
+            return lstLabel;
+        }
         
     }
 }
