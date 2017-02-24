@@ -65,6 +65,12 @@ namespace DiceApp
             amountFirstPlayer = 0; 
             amountSecondPlayer = 0;  
         }
+
+        private void updatePartida()
+        {
+            partida++;
+            label14.Text = partida + "";
+        }
         
     }
 }
