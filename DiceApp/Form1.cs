@@ -16,6 +16,8 @@ namespace DiceApp
         {
             InitializeComponent();
         }
-
+        
+        private void cleanText(Label lbl) { lbl.Text = "";}
+        
     }
 }
