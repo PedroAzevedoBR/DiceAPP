@@ -139,6 +139,34 @@ namespace DiceApp
         {
             label12.Text = playerWinner == 0 ? "EMPATE" : "Jogador " + playerWinner + " ganhou!";
         }
+
+        private void partialResult(Label player1, Label player2)
+        {
+            int p1 = Convert.ToInt32(player1.Text);
+            int p2 = Convert.ToInt32(player2.Text);
+            if (p1 == p2)
+            {
+                cleanText(player1);
+                cleanText(player2);
+                setWinnerLabel(0);
+            }
+            else
+            {
+                if(p1 > p2)
+                {
+                    setColors(player1, player2);
+                    amountFirstPlayer++;
+                    setWinnerLabel(1);
+                }
+                else
+                {
+                    setColors(player2, player1);
+                    amountSecondPlayer++;
+                    setWinnerLabel(2);
+                }
+                VerifyMatch(amountFirstPlayer, amountSecondPlayer);
+            } 
+        }
         
     }
 }
