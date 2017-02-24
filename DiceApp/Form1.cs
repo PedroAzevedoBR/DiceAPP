@@ -16,10 +16,15 @@ namespace DiceApp
         {
             InitializeComponent();
         }
+
+        int amountFirstPlayer = 0; 
+        int amountSecondPlayer = 0;
+        Label result1, result2 = null;
+        int partida = 0;
         
         private void cleanText(Label lbl) { lbl.Text = "";}
 
-         private List<Label> createFirstPlayerScores()
+        private List<Label> createFirstPlayerScores()
         {
             List<Label> lstLabel = new List<Label>();
             lstLabel.Add(label3);
