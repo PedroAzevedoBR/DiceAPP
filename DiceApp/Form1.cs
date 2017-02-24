@@ -110,6 +110,17 @@ namespace DiceApp
             result1 = fill(createFirstPlayerScores());
             switchEnable();            
         }
+
+
+        private void endGame(int winner) 
+        {
+            DialogResult result = MessageBox.Show(this, "O jogador " + winner + " ganhou o jogo. Deseja jogar novamente?",
+                                            "Fim de jogo", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+                clean();
+            else
+                block_buttons();
+        }
         
     }
 }
